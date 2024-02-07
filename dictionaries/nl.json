@@ -1,0 +1,16 @@
+{
+  "navigation": {
+    "home": "Start",
+    "about": "Over"
+  },
+  "page": {
+    "home": {
+      "title": "Welkom bij NextJs i18n",
+      "description": "Internationalisering in NextJs 13 App-router"
+    },
+    "about": {
+      "title": "Over ons",
+      "description": "Dit is de pagina over"
+    }
+  }
+}
