@@ -21,7 +21,7 @@ export const Header: FC<HeaderProps> = async ({ lang }) => {
             return (
               <li key={navItem}>
                 <Link href={href} key={navItem}>
-                  {navigation[navItem]}
+                  {navigation[navItem as keyof typeof navigation]}
                 </Link>
               </li>
             );
